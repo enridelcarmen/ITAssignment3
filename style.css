@@ -1,0 +1,233 @@
+/* General desgin of the page */
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  color: #333;
+  overflow-x: hidden;
+}
+
+
+/* Utility Class */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-primary {
+    color: #FF9933;
+
+
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  /* Space between the for the bottom and the spacing of sides */
+  padding: 0.8rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* Size of the coloured bottom part */
+  border-bottom: 3px solid #FFB266;
+
+}
+
+#navbar ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+}
+
+#navbar h2 a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+#navbar li a:hover {
+    background-color: #FFB266;
+
+}
+
+/* Display (Image on the page) */
+#showcase {
+  background: url(img/HPWP.jpg) no-repeat center center/cover;
+  width: auto;
+  height: 700px;
+}
+
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0); /* Fix the transparency later add another ,0 */
+    color:#fff;
+
+}
+
+.showcase-container h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.showcase-container .btn {
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    transition: color 0.3s, background 0.3s;
+
+}
+
+.showcase-container .btn:hover {
+    background: #FF9933;
+    color: #fff;
+
+}
+
+.btn {
+ color: #FF9933;
+ text-decoration: none;
+ display: inline-block;
+ padding: 1rem 2rem;
+ border: 1px  solid #FF9933;
+ border-radius: 10px;
+ font-weight: bold;
+
+}
+
+/* About Section Styling*/
+  #Team {
+    padding: 0rem 0; /* Padding too much space fix later*/
+
+}
+  #Team h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+
+  #Team h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+    #Team h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+  #Team p .lead {
+    margin-bottom: 1rem;
+  }
+
+  #Team .about-heading {
+    display: flex;
+  }
+
+  .EnriqueProfilePic {
+    width: 400px;
+    border:2px solid black;
+    margin: 1px auto;
+    display: block;
+
+
+  }
+
+  .EnriquePersonality {
+    width: 400px;
+    border:2px solid black;
+    margin: 15px auto;
+    display: block;
+
+  }
+
+  .EnriquePersonality2 {
+    width: 550px;
+    border:2px solid black;
+    margin: 20px auto;
+    display: block;
+
+}
+
+.EnriquePersonality3 {
+  width: 550px;
+  border:2px solid black;
+  margin: 20px auto;
+  display: block;
+
+}
+
+.MatthewProfilePic{
+  width: 300px;
+  border:2px solid black;
+  margin: 15px auto;
+  display: block;
+
+}
+
+.MatthewPersonlity{
+  width: 500px;
+  border:2px solid black;
+  margin: 15px auto;
+  display: block;
+
+}
+
+.MatthewLearner{
+  width: 500px;
+  border:2px solid black;
+  margin: 15px auto;
+  display: block;
+
+}
+
+.Timpic{
+  width: 300px;
+  border:2px solid black;
+  margin: 15px auto;
+  display: block;
+
+}
+
+.Russel1{
+  width: 300px;
+  border:2px solid black;
+  margin: 15px auto;
+  display: block;
+
+}
+
+.Russel2 {
+  width: 400px;
+  border:2px solid black;
+  margin: 15px auto;
+  display: block;
+
+}
